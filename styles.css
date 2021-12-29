@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(29, 29, 29);
+    font-family: sans-serif;
+}
+
+main {
+    width: 50rem;
+    background-color: rgb(233, 233, 145);
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+label {
+    display: inline-block;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    display: inline-block;
+    font-family: sans-serif;
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 2px;
+    margin-bottom: 1rem ;
+    padding: 0 0.5rem;
+}
+
+/*
+input.warning = all elements having warning class which are of input type
+input .warning = all elements having warning class which are children of input
+*/
+input.warning {
+    background-color: rgb(248, 191, 145);
+}
+
+#remaining-chars.warning {
+    color: rgb(211, 109, 26);
+}
+
+input.error {
+    background-color: rgb(248, 157, 145);
+}
+
+#remaining-chars.error {
+    color: rgb(211, 54, 26);
+}
+
+button {
+    display: block;
+    padding: 0.5rem 1rem;
+    font: inherit;
+}
